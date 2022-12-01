@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./CSS/main.css">
+  <link rel="stylesheet" href="./CSS/menumobilefinal.css">
+  <link rel="stylesheet" href="./CSS/footer_new.css">
+  <link rel="stylesheet" href="./CSS/fonts.css">
+  <link rel="stylesheet" href="./CSS/kannada.css">
+  <title>About Us - ಸಂಭ್ರಮ-2K22</title>
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Google+Sans:400,500,700|Material+Icons|Google+Sans+Display:400,500,700|Google+Sans+Text:400,500,700,400i,500i,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *{
+   font-family: 'Noto Sans Kannada' !important; 
+  }
+</style>
+  </head>
+<body>
+  <div class="main-container">
+    <div class="notification-list"></div>
+    <div class="main-content">
+        <div id="headcont" class="headercontainer ">
+      <header class="center">
+        <div class="logo-container">
+          <a href="home.html" rel="home">
+            <span id="KanLogo" style="font-size: 2.1rem;background: linear-gradient(to right, #d07616 0%, #ff0005 100%);background-clip: border-box;background-clip: text;-webkit-text-fill-color: transparent;-webkit-background-clip: text;">
+              ಸಂಭ್ರಮ-2K22
+            </span>
+
+          </a>
+        </div>
+        <input type="checkbox"id="menutoggler">
+        <div class="hamberger">
+  <div></div>
+</div>
+        <div class="menu-list-container">
+          <nav class="menu-flex-container">
+          <ul class="menu-flex">
+            <li  class="menu-item"><a class="menu-links" href="districts.html">Districts</a></li>
+            <li  class="menu-item" ><a  class="menu-links" href="#">About us</a></li>
+            <!-- <li  class="menu-item" ><a  class="menu-links" href="districts.html">Alumni Achievers</a></li>
+            <li  class="menu-item" ><a  class="menu-links" href="registration-form.html">Registration</a></li>
+            <li  class="menu-item" ><a  class="menu-links" href="login.html">Sign in</a></li> -->
+          </ul>
+        </nav>
+        </div>
+      </header>  </div>
+      <div class="dummyspace"></div>                           <!-- header ends -->
+<style>
+  .heroImgContainer{
+    background: linear-gradient(to right, #d07616 35%, #ff0005 100%);
+  }
+  .index-wel-t{
+    font-size: 8rem;
+  }
+</style>
+      <div class="hero-container index ">
+        <div class="hero">
+          <div class="heroImgContainer dist-hc">
+            <div class="welcometitle index-wel-t">404</div>
+            <div>page not found in kannada</div>
+            
+          </div>
+        </div>
+      </div>         <!-- hero container -->
+      <div class="kanMainContent">
+        <div class="content center">
+        
+        </div>
+
+      </div>
+
+
+    </div>
+<!-- footer starts here -->
+  <div class="foot-paw foot-flex kanfoot">
+  <span>copyright &copy 2022 <span class="footersitename">ಸಂಭ್ರಮ-2K22</span></span> <span>All rights reserved</span>
+  </div>
+<!-- footer ends here -->
+
+  </div>
+
+  <script>
+let prevScrollpos = window.pageYOffset;
+const nav  =  document.getElementById("headcont");
+window.onscroll = function() {
+let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+          nav.classList.add("snap");
+          nav.classList.remove("scrolldown");
+    } else {
+          nav.classList.add("scrolldown");
+          nav.classList.remove("snap");
+    }
+    prevScrollpos = currentScrollPos;
+
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  nav.style.boxShadow = "0 0.125rem 0.3125rem rgb(0 0 0 / 26%)";
+    } else {
+      nav.style.boxShadow = "none";
+    }
+}
+  </script>
+</body>
+</html>
